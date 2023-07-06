@@ -1,0 +1,58 @@
+@media (max-width: 768px) {
+  /* NAVBAR */
+  .navbar {
+    display: block;
+  }
+  .nav {
+    border: none;
+  }
+  /* INFO INDIVIDUAL */
+  .grid-individual {
+    grid-template-columns: 1fr;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  .navbar-ic {
+    padding-left: 0px;
+    padding-bottom: 30px;
+  }
+  /* JOB INFO */
+  .grid-job {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .talent-grid-m {
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 3fr;
+  }
+
+  /* CERTIFICATE -ACHIEVEMENT*/
+  .grid-cer {
+    grid-template-columns: 1fr;
+  }
+  .cer-info {
+    border: none;
+    border-bottom: 2px solid #d6c08d;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .cer-info2 {
+    padding-left: 0;
+  }
+  .cer-info img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* PROJECT */
+  .grid-project {
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+  /* FOOTER */
+  footer a {
+    display: none;
+  }
+}
